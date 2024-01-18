@@ -14,7 +14,7 @@ try:
 except ImportError:
     Image = None
 from pyLuci.fns.helper import (bash, fast_download, humanbytes, numerize,
-                             time_formatter)
+                               time_formatter)
 from pyLuci.fns.ytdl import dler, get_buttons, get_formats
 from telethon import Button
 from telethon.errors.rpcerrorlist import (FilePartLengthInvalidError,

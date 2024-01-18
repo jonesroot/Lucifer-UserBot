@@ -54,8 +54,8 @@ import os
 import random
 import time
 
-from pyLuci import *
 from PIL import Image
+from pyLuci import *
 
 try:
     import cv2

@@ -24,7 +24,7 @@ import os
 
 from pyLuci.dB import DEVS
 from pyLuci.dB.gban_mute_db import (gban, gmute, is_gbanned, is_gmuted,
-                                  list_gbanned, ungban, ungmute)
+                                    list_gbanned, ungban, ungmute)
 from pyLuci.kynan import register
 from telethon.errors.rpcerrorlist import ChatAdminRequiredError, FloodWaitError
 from telethon.tl.functions.contacts import BlockRequest, UnblockRequest

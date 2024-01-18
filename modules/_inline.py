@@ -10,11 +10,11 @@ import time
 from datetime import datetime
 from os import remove
 
+from git import Repo
 from pyLuci._misc._assistant import callback, in_pattern
 from pyLuci.dB._core import HELP, LIST
 from pyLuci.fns.helper import gen_chlog, time_formatter, updater
 from pyLuci.fns.misc import split_list
-from git import Repo
 from telethon import Button
 from telethon.tl.types import InputWebDocument, Message
 from telethon.utils import resolve_bot_file_id

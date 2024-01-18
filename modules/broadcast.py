@@ -25,7 +25,8 @@
 import asyncio
 
 from pyLuci.dB import DEVS
-from pyLuci.dB.gcast_blacklist_db import add_gblacklist, list_bl, rem_gblacklist
+from pyLuci.dB.gcast_blacklist_db import (add_gblacklist, list_bl,
+                                          rem_gblacklist)
 from telethon.errors.rpcerrorlist import FloodWaitError
 
 from . import *
