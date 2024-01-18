@@ -10,13 +10,13 @@ import os
 from time import time
 from traceback import format_exc
 
-from Ayra import HNDLR, LOGS, asst, udB, vcClient
-from Ayra._misc import owner_and_sudos
-from Ayra._misc._decorators import compile_pattern
-from Ayra.fns.admins import admin_check
-from Ayra.fns.helper import bash, downloader, time_formatter
-from Ayra.fns.ytdl import get_videos_link
-from Ayra.version import __version__ as AyVer
+from pyLuci import HNDLR, LOGS, asst, udB, vcClient
+from pyLuci._misc import owner_and_sudos
+from pyLuci._misc._decorators import compile_pattern
+from pyLuci.fns.admins import admin_check
+from pyLuci.fns.helper import bash, downloader, time_formatter
+from pyLuci.fns.ytdl import get_videos_link
+from pyLuci.version import __version__ as AyVer
 from pytgcalls import GroupCallFactory
 from pytgcalls.exceptions import GroupCallNotFoundError
 from telethon import events

@@ -17,7 +17,7 @@
 ◉ **Keterangan:** Daftar semua pengguna sudo.
 """
 
-from Ayra._misc import sudoers
+from pyLuci._misc import sudoers
 from telethon.tl.types import User
 
 from . import ayra_bot, ayra_cmd, get_string, inline_mention, udB
@@ -117,7 +117,7 @@ async def _(ayra):
             msg += f"• `{i}` -> Pengguna tidak valid\n"
     m = udB.get_key("SUDO") or True
     if not m:
-        m = "[False](https://graph.org/Ayra-11-29)"
+        m = "[False](https://graph.org/pyLuci-11-29)"
     return await ayra.eor(
         f"**SUDO MODE : {m}\n\nList of SUDO Users :**\n{msg}", link_preview=False
     )

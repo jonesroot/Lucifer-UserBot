@@ -11,9 +11,9 @@
 
 import os
 
-from Ayra.dB.asst_fns import *
-from Ayra.dB.botchat_db import *
-from Ayra.fns.helper import inline_mention
+from pyLuci.dB.asst_fns import *
+from pyLuci.dB.botchat_db import *
+from pyLuci.fns.helper import inline_mention
 from telethon.errors.rpcerrorlist import UserNotParticipantError
 from telethon.tl.custom import Button
 from telethon.tl.functions.channels import GetFullChannelRequest

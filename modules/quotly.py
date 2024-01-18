@@ -82,7 +82,7 @@ async def quott_(event):
         )
     except Exception as er:
         return await msg.edit(str(er))
-    message = await reply.reply("Quotly by Ayra", file=file)
+    message = await reply.reply("Quotly by pyLuci", file=file)
     os.remove(file)
     await msg.delete()
     return message

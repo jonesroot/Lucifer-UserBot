@@ -62,11 +62,11 @@ import asyncio
 import os
 import re
 
-from Ayra.dB.vc_sudos import *
-from Ayra.fns.helper import *
-from Ayra.fns.info import *
-from Ayra.fns.misc import *
-from Ayra.fns.tools import *
+from pyLuci.dB.vc_sudos import *
+from pyLuci.fns.helper import *
+from pyLuci.fns.info import *
+from pyLuci.fns.misc import *
+from pyLuci.fns.tools import *
 from pytgcalls.exceptions import NotConnectedError
 from telethon.errors.rpcerrorlist import (ChatSendMediaForbiddenError,
                                           MessageIdInvalidError)

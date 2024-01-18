@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# Ayra - UserBot
+# pyLuci - UserBot
 # Copyright (C) 2021-2022 Lucifer
 #
-# This file is a part of < https://github.com/jonesroot/Ayra/ >
+# This file is a part of < https://github.com/jonesroot/pyLuci/ >
 # PLease read the GNU Affero General Public License in <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
 
 git pull
@@ -20,4 +20,4 @@ if [ -f .env ] ; then  set -o allexport; source .env; set +o allexport ; fi
 
 
 python3 app.py && \
-python3 -m Ayra
+python3 -m pyLuci

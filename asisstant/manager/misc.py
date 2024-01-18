@@ -9,8 +9,8 @@
 import random
 
 import aiohttp
-from Ayra.dB import DEVLIST
-from Ayra.fns.admins import admin_check
+from pyLuci.dB import DEVLIST
+from pyLuci.fns.admins import admin_check
 
 from . import *
 

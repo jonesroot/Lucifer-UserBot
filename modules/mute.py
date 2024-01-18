@@ -1,9 +1,9 @@
-# Ayra - UserBot
+# pyLuci - UserBot
 # Copyright (C) 2021-2022 senpai80
 #
-# This file is a part of < https://github.com/senpai80/Ayra/ >
+# This file is a part of < https://github.com/senpai80/pyLuci/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/senpai80/Ayra/blob/main/LICENSE/>.
+# <https://www.github.com/senpai80/pyLuci/blob/main/LICENSE/>.
 """
 ✘ **Bantuan Untuk Mute**
 
@@ -19,9 +19,9 @@
 ๏ **Perintah:** `undmute` <balas pesan/berikan username>
 ◉ **Keterangan:** Suarakan pengguna yang dibisukan dalam obrolan saat ini.
 """
-from Ayra.dB.mute_db import is_muted, mute, unmute
-from Ayra.fns.admins import ban_time
-from Ayra.kynan import register
+from pyLuci.dB.mute_db import is_muted, mute, unmute
+from pyLuci.fns.admins import ban_time
+from pyLuci.kynan import register
 from telethon import events
 from telethon.utils import get_display_name
 

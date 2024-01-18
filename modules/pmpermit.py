@@ -33,9 +33,9 @@ import asyncio
 import re
 from os import remove
 
-from Ayra.dB import DEVS
-from Ayra.dB.logusers_db import *
-from Ayra.dB.pmpermit_db import *
+from pyLuci.dB import DEVS
+from pyLuci.dB.logusers_db import *
+from pyLuci.dB.pmpermit_db import *
 
 try:
     from tabulate import tabulate
@@ -820,7 +820,7 @@ async def in_pm_ans(event):
                 content=cont,
             )
         ]
-    await event.answer(res, switch_pm="• Ayra •", switch_pm_param="start")
+    await event.answer(res, switch_pm="• pyLuci •", switch_pm_param="start")
 
 
 @callback(re.compile("admin_only(.*)"), from_users=[ayra_bot.uid])

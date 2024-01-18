@@ -1,9 +1,9 @@
-# Ayra - UserBot
+# pyLuci - UserBot
 # Copyright (C) 2021-2022 senpai80
 #
-# This file is a part of < https://github.com/senpai80/Ayra/ >
+# This file is a part of < https://github.com/senpai80/pyLuci/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/senpai80/Ayra/blob/main/LICENSE/>.
+# <https://www.github.com/senpai80/pyLuci/blob/main/LICENSE/>.
 """
 ✘ **Bantuan Untuk Logo**
 
@@ -20,8 +20,8 @@ try:
     from PIL import Image
 except ImportError:
     Image = None
-from Ayra.fns.misc import unsplashsearch
-from Ayra.fns.tools import LogoHelper
+from pyLuci.fns.misc import unsplashsearch
+from pyLuci.fns.tools import LogoHelper
 
 from . import *
 

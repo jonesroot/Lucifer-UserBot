@@ -55,7 +55,7 @@ alive_txt = """
 ◈ Lucifer X UserBot
 
   ◈ Version - {}
-  ◈ Ayra - {}
+  ◈ pyLuci - {}
   ◈ Telethon - {}
 """
 
@@ -253,7 +253,7 @@ async def restart(e):
     await e.eor("`Processing...`")
     await bash("git pull")
     await e.eor("Done.")
-    os.execl(sys.executable, sys.executable, "-m", "Ayra")
+    os.execl(sys.executable, sys.executable, "-m", "pyLuci")
 
 
 @ayra_cmd(
@@ -364,7 +364,7 @@ async def _(e):
         await bash("git pull -f && pip3 install -r requirements.txt")
         # call_back()
         await xx.edit(get_string("upd_7"))
-        os.execl(sys.executable, "python3", "-m", "Ayra")
+        os.execl(sys.executable, "python3", "-m", "pyLuci")
         return
     m = await updater()
     branch = (Repo.init()).active_branch

@@ -15,8 +15,8 @@
 
 import asyncio
 
-from Ayra.dB.afk_db import add_afk, del_afk, is_afk
-from Ayra.dB.pmpermit_db import is_approved
+from pyLuci.dB.afk_db import add_afk, del_afk, is_afk
+from pyLuci.dB.pmpermit_db import is_approved
 from telegraph import upload_file as uf
 from telethon import events
 

@@ -3,13 +3,13 @@ import sys
 from glob import glob
 from typing import Any, Dict, List, Union
 
-from Ayra import *
-from Ayra.fns.tools import translate
+from pyLuci import *
+from pyLuci.fns.tools import translate
 
 try:
     from yaml import safe_load
 except ModuleNotFoundError:
-    from Ayra.fns.tools import safe_load
+    from pyLuci.fns.tools import safe_load
 
 AyConfig.lang = udB.get_key("language") or os.getenv("LANGUAGE", "id")
 

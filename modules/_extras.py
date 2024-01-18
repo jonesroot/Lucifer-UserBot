@@ -7,12 +7,12 @@
 
 import asyncio
 
-from Ayra.dB import stickers
-from Ayra.dB.forcesub_db import get_forcesetting
-from Ayra.dB.gban_mute_db import is_gbanned
-from Ayra.dB.greetings_db import get_goodbye, get_welcome, must_thank
-from Ayra.fns.helper import inline_mention
-from Ayra.fns.tools import create_tl_btn
+from pyLuci.dB import stickers
+from pyLuci.dB.forcesub_db import get_forcesetting
+from pyLuci.dB.gban_mute_db import is_gbanned
+from pyLuci.dB.greetings_db import get_goodbye, get_welcome, must_thank
+from pyLuci.fns.helper import inline_mention
+from pyLuci.fns.tools import create_tl_btn
 from telethon import events
 from telethon.errors.rpcerrorlist import UserNotParticipantError
 from telethon.tl.functions.channels import GetParticipantRequest

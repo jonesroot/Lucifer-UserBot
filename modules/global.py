@@ -22,10 +22,10 @@
 import asyncio
 import os
 
-from Ayra.dB import DEVS
-from Ayra.dB.gban_mute_db import (gban, gmute, is_gbanned, is_gmuted,
+from pyLuci.dB import DEVS
+from pyLuci.dB.gban_mute_db import (gban, gmute, is_gbanned, is_gmuted,
                                   list_gbanned, ungban, ungmute)
-from Ayra.kynan import register
+from pyLuci.kynan import register
 from telethon.errors.rpcerrorlist import ChatAdminRequiredError, FloodWaitError
 from telethon.tl.functions.contacts import BlockRequest, UnblockRequest
 from telethon.tl.types import User

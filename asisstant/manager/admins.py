@@ -7,7 +7,7 @@
 
 import re
 
-from Ayra import _ayra_cache
+from pyLuci import _ayra_cache
 from telethon.errors.rpcerrorlist import UserNotParticipantError
 
 from . import *

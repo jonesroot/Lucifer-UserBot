@@ -8,7 +8,7 @@
 import os
 import re
 
-from Ayra.dB.botchat_db import tag_add, who_tag
+from pyLuci.dB.botchat_db import tag_add, who_tag
 from telethon.errors.rpcerrorlist import (ChannelPrivateError,
                                           ChatWriteForbiddenError,
                                           MediaCaptionTooLongError,

@@ -19,7 +19,7 @@
 """
 import os
 
-from Ayra import AyConfig
+from pyLuci import AyConfig
 
 try:
     import cv2

@@ -25,7 +25,7 @@ try:
 except ImportError:
     Image = None
 
-from Ayra.dB.gban_mute_db import is_gbanned
+from pyLuci.dB.gban_mute_db import is_gbanned
 
 try:
     from telegraph import upload_file as uf

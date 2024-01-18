@@ -27,7 +27,7 @@ except ImportError:
 try:
     from yaml import safe_load
 except ImportError:
-    from Ayra.fns.tools import safe_load
+    from pyLuci.fns.tools import safe_load
 try:
     from telegraph import upload_file as uf
 except ImportError:

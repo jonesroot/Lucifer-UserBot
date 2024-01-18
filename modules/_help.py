@@ -5,7 +5,7 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
 
-from Ayra.dB._core import LIST
+from pyLuci.dB._core import LIST
 from telethon.errors.rpcerrorlist import BotInlineDisabledError
 from telethon.tl.custom import Button
 

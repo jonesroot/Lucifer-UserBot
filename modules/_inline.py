@@ -1,19 +1,19 @@
-# Ayra - UserBot
+# pyLuci - UserBot
 # Copyright (C) 2021-2022 senpai80
 #
-# This file is a part of < https://github.com/senpai80/Ayra/ >
+# This file is a part of < https://github.com/senpai80/pyLuci/ >
 # PLease read the GNU Affero General Public License in
-# <https://www.github.com/senpai80/Ayra/blob/main/LICENSE/>.
+# <https://www.github.com/senpai80/pyLuci/blob/main/LICENSE/>.
 
 import re
 import time
 from datetime import datetime
 from os import remove
 
-from Ayra._misc._assistant import callback, in_pattern
-from Ayra.dB._core import HELP, LIST
-from Ayra.fns.helper import gen_chlog, time_formatter, updater
-from Ayra.fns.misc import split_list
+from pyLuci._misc._assistant import callback, in_pattern
+from pyLuci.dB._core import HELP, LIST
+from pyLuci.fns.helper import gen_chlog, time_formatter, updater
+from pyLuci.fns.misc import split_list
 from git import Repo
 from telethon import Button
 from telethon.tl.types import InputWebDocument, Message
@@ -319,7 +319,7 @@ async def ibuild(e):
                     results = [
                         await builder.document(
                             _pic,
-                            title="Ayra Op",
+                            title="pyLuci Op",
                             text=txt,
                             description="@Riizzvbss",
                             buttons=btn,
@@ -334,7 +334,7 @@ async def ibuild(e):
                     cont = InputWebDocument(pic, 0, mime_type, [])
                 results = [
                     await builder.article(
-                        title="Ayra Op",
+                        title="pyLuci Op",
                         type=_type,
                         text=txt,
                         description="@Riizzvbss",
@@ -349,7 +349,7 @@ async def ibuild(e):
         except Exception as er:
             LOGS.exception(er)
     result = [
-        await builder.article("Ayra Op", text=txt, link_preview=False, buttons=btn)
+        await builder.article("pyLuci Op", text=txt, link_preview=False, buttons=btn)
     ]
     await e.answer(result)
 

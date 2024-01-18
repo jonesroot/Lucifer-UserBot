@@ -28,9 +28,9 @@
 """
 import os
 
-from Ayra.dB.greetings_db import (add_goodbye, add_welcome, delete_goodbye,
+from pyLuci.dB.greetings_db import (add_goodbye, add_welcome, delete_goodbye,
                                   delete_welcome, get_goodbye, get_welcome)
-from Ayra.fns.tools import create_tl_btn, format_btn, get_msg_button
+from pyLuci.fns.tools import create_tl_btn, format_btn, get_msg_button
 from telegraph import upload_file as uf
 from telethon.utils import pack_bot_file_id
 

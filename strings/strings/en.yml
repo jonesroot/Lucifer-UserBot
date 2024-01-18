@@ -190,13 +190,13 @@ afk_5: "❏ **#AFK**.\n\n**Because:** `{}`"
 afk_6: "❏ Back from AFK."
 
 # bot
-bot_1: "Ayra-Userbot"
+bot_1: "pyLuci-Userbot"
 bot_2: "Stats"
 bot_3: "Repo"
 bot_4: "Support"
 bot_5: "`Restarting...`"
-alive_1: "**❏ ᴀʏʀᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ ʙʏ [˹↻ꝛɪᴢ˼](t.me/riizzvbss)**\n\n**{}**\n\n┏━━━━━━━━━━━━━━━━━━━━━\n┣ **Owner** - `{}`\n┣ **Version** - `{}`\n┣ **Py-Ayra** - `{}`\n┣ **UpTime** - `{}`\n┣ **Python** - `{}`\n┣ **Telethon** - `{}`\n┣ **Branch** - `{}`\n┗━━━━━━━━━━━━━━━━━━━━━"
-log: "**Heroku** Ayra Logs.\nClick [here]({})!"
+alive_1: "**❏ ᴀʏʀᴀ ꭙ ᴜꜱᴇʀʙᴏᴛ ʙʏ [˹↻ꝛɪᴢ˼](t.me/riizzvbss)**\n\n**{}**\n\n┏━━━━━━━━━━━━━━━━━━━━━\n┣ **Owner** - `{}`\n┣ **Version** - `{}`\n┣ **Py-pyLuci** - `{}`\n┣ **UpTime** - `{}`\n┣ **Python** - `{}`\n┣ **Telethon** - `{}`\n┣ **Branch** - `{}`\n┗━━━━━━━━━━━━━━━━━━━━━"
+log: "**Heroku** pyLuci Logs.\nClick [here]({})!"
 ping: "**Pong !!** `{}ms`\n**Active for** - `{}`"
 usage: "**⚙️ Dyno Info ⚙️**:\n\n➠ **Dyno Usage** `{}`:\n  •  **{}h**  **{}m |** `[{}%]`\n➠ **Remaining dyno quota this month:**\n  •  **{}h**  **{}m |** `[{}%]`\n\n**Total Disk Space:**: `{}`\n**Used**: `{}`\n**Free**: `{}`\n\n**📊 Data Usage 📊**\n**Upload**: `{}`\n**Download**: `{}`\n\n**CPU**: `{}%`\n**RAM**: `{}%`\n**DISK**: `{}%`"
 usage_simple: "**Total Disk Space:** `{}`\n**Used:** `{}`\n**Free:** `{}`\n\n**📊 Data Usage 📊**\n**Upload**: `{}`\n**Download**: `{}`\n\n**CPU**: `{}%`\n**RAM**: `{}%`\n**DISK**: `{}%`"
@@ -222,7 +222,7 @@ bd_8: "`Removing...`"
 bd_9: "Channel has been removed from the database."
 
 # calculator
-calc_1: "• Ayra Inline Calculator •"
+calc_1: "• pyLuci Inline Calculator •"
 calc_2: "Open Calculator Again"
 
 # channel hacks
@@ -354,7 +354,7 @@ gdrive_1: "`You have Authorized with Google Drive`"
 gdrive_2: "Go [here](https://console.developers.google.com/flows/enableapi?apiid=drive) and get your `GDRIVE_CLIENT_ID` and `GDRIVE_CLIENT_SECRET`\n\nSend your GDRIVE_CLIENT_ID and GDRIVE_CLIENT_SECRET like this.\n`GDRIVE_CLIENT_ID GDRIVE_CLIENT_SECRET` separated with a space."
 gdrive_3: "`Wrong Client Id anjim`"
 gdrive_4: "`An error occurred! Send `/auth` again.\nIf still same, contact `[˹↻ꝛɪᴢ˼](t.me/riizzvbss)`"
-gdrive_5: "`Success!\nYou're Ready to Use Google Drive with Ayra Userbot.`"
+gdrive_5: "`Success!\nYou're Ready to Use Google Drive with pyLuci Userbot.`"
 gdrive_6: "`Go to `{}` and send `/auth.`"
 gdrive_7: "**File Successfully Uploaded to G-Drive:**\n\n[{}]({})"
 
@@ -425,7 +425,7 @@ unspl_1: "No results found!"
 # updater
 upd_1: "`Checking for updates, please wait....`"
 upd_2: "`Oops.. Updater cannot continue due to some issues.`\n\n**LOGTRACE:**\n"
-upd_3: "**Updates are available for Ayra on Branch [[{}]]({}/tree/{}):\n\nCHANGES:**\n\n{}"
+upd_3: "**Updates are available for pyLuci on Branch [[{}]]({}/tree/{}):\n\nCHANGES:**\n\n{}"
 upd_4: "`Change log too big, see file to view it.`"
 upd_5: "Click the button below to update."
 upd_6: "\n**Your BOT is already up-to-date with [[{}]]({}/tree/{})**\n"

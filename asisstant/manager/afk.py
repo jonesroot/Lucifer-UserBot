@@ -7,7 +7,7 @@
 
 from datetime import datetime as dt
 
-from Ayra.fns.helper import inline_mention, time_formatter
+from pyLuci.fns.helper import inline_mention, time_formatter
 from telethon.events import NewMessage
 from telethon.tl.types import (Message, MessageEntityMention,
                                MessageEntityMentionName, User)

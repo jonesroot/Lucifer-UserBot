@@ -44,7 +44,7 @@ import math
 import shutil
 from random import choice
 
-from Ayra.fns import some_random_headers
+from pyLuci.fns import some_random_headers
 
 from . import *
 from . import humanbytes as hb

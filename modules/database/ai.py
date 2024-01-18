@@ -1,5 +1,5 @@
 import openai
-from Ayra import *
+from pyLuci import *
 
 from .. import async_searcher, udB
 

@@ -55,8 +55,8 @@
 """
 
 
-from Ayra.dB import DEVS
-from Ayra.kynan import register
+from pyLuci.dB import DEVS
+from pyLuci.kynan import register
 from telethon.errors import BadRequestError
 from telethon.errors.rpcerrorlist import UserIdInvalidError
 from telethon.tl.functions.channels import *

@@ -53,7 +53,7 @@ async def _(e):
     if match:
         split = match.split(maxsplit=1)
         request = split[0] in ["r", "request"]
-        title = "Created by Ayra"
+        title = "Created by pyLuci"
         if len(split) > 1:
             match = split[1]
             spli = match.split(maxsplit=1)

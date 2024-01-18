@@ -274,7 +274,7 @@ async def pixelator(event):
     temp = cv2.resize(input_, (w, h), interpolation=cv2.INTER_LINEAR)
     output = cv2.resize(temp, (width, height), interpolation=cv2.INTER_NEAREST)
     cv2.imwrite("output.jpg", output)
-    await msg.respond("Pixelated by Ayra", file="output.jpg")
+    await msg.respond("Pixelated by pyLuci", file="output.jpg")
     await msg.delete()
     os.remove("output.jpg")
     os.remove(image)

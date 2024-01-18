@@ -7,8 +7,8 @@
 
 import random
 
-from Ayra.fns.misc import Quotly
-from Ayra.fns.tools import TgConverter
+from pyLuci.fns.misc import Quotly
+from pyLuci.fns.tools import TgConverter
 from telethon import errors
 from telethon.errors.rpcerrorlist import StickersetInvalidError
 from telethon.tl.functions.messages import GetStickerSetRequest as GetSticker

@@ -14,11 +14,11 @@ from os import execl, remove
 from random import choice
 
 try:
-    from Ayra.fns.gDrive import GDriveManager
+    from pyLuci.fns.gDrive import GDriveManager
 except ImportError:
     GDriveManager = None
-from Ayra.fns.tools import Carbon, get_paste, telegraph_client
-from Ayra.startup.loader import Loader
+from pyLuci.fns.tools import Carbon, get_paste, telegraph_client
+from pyLuci.startup.loader import Loader
 from telegraph import upload_file as upl
 from telethon import Button, events
 from telethon.tl.types import MessageMediaWebPage
@@ -240,7 +240,7 @@ async def update(eve):
     else:
         await eve.edit(get_string("clst_1"))
         await bash("git pull && pip3 install -r requirements.txt")
-        execl(sys.executable, sys.executable, "-m", "Ayra")
+        execl(sys.executable, sys.executable, "-m", "pyLuci")
 
 
 @callback(re.compile("changes(.*)"), owner=True)

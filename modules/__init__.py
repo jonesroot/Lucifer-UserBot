@@ -24,22 +24,22 @@ from urllib.request import urlretrieve
 import aiofiles
 import aiohttp
 import requests
-from Ayra import *
-from Ayra._misc import owner_and_sudos, sudoers
-from Ayra._misc._assistant import asst_cmd, callback, in_pattern
-from Ayra._misc._decorators import ayra_cmd, compile_pattern
-from Ayra._misc._wrappers import eod, eor
-from Ayra.configs import Var
-from Ayra.dB import AYRA_IMAGES, DEVS
-from Ayra.fns.admins import admin_check
-from Ayra.fns.helper import *
-from Ayra.fns.info import *
-from Ayra.fns.misc import *
-from Ayra.fns.tools import *
-from Ayra.fns.ytdl import get_videos_link
-from Ayra.kynan import *
-from Ayra.version import __version__ as AyraVer
-from Ayra.version import ayra_version
+from pyLuci import *
+from pyLuci._misc import owner_and_sudos, sudoers
+from pyLuci._misc._assistant import asst_cmd, callback, in_pattern
+from pyLuci._misc._decorators import ayra_cmd, compile_pattern
+from pyLuci._misc._wrappers import eod, eor
+from pyLuci.configs import Var
+from pyLuci.dB import AYRA_IMAGES, DEVS
+from pyLuci.fns.admins import admin_check
+from pyLuci.fns.helper import *
+from pyLuci.fns.info import *
+from pyLuci.fns.misc import *
+from pyLuci.fns.tools import *
+from pyLuci.fns.ytdl import get_videos_link
+from pyLuci.kynan import *
+from pyLuci.version import __version__ as AyraVer
+from pyLuci.version import ayra_version
 from pytgcalls import GroupCallFactory
 from pytgcalls.exceptions import GroupCallNotFoundError
 from requests import get

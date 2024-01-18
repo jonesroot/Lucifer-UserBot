@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./resources/extras/logo.jpg" alt="Ayra Logo">
+  <img src="./resources/extras/logo.jpg" alt="pyLuci Logo">
 </p>
 <h1 align="center">
   <b>Lucifer X Userbot</b>

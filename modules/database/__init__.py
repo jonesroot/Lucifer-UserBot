@@ -1,4 +1,4 @@
-from Ayra import udB
+from pyLuci import udB
 
 
 class KeyManager:

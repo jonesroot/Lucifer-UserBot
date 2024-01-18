@@ -10,9 +10,9 @@ import os
 import sys
 from datetime import datetime
 
-from Ayra._misc import SUDO_M, owner_and_sudos
-from Ayra.dB.asst_fns import *
-from Ayra.fns.helper import inline_mention
+from pyLuci._misc import SUDO_M, owner_and_sudos
+from pyLuci.dB.asst_fns import *
+from pyLuci.fns.helper import inline_mention
 from dotenv import load_dotenv, set_key, unset_key
 from pytz import timezone as tz
 from telethon import Button, events
@@ -82,7 +82,7 @@ async def restart_callback(e):
         restart_counter += 1
     #        return await restart_callback(e)
     await bash("git pull && pip3 install -r requirements.txt")
-    os.execl(sys.executable, sys.executable, "-m", "Ayra")
+    os.execl(sys.executable, sys.executable, "-m", "pyLuci")
 
 
 @asst_cmd(pattern=r"setvar (\S+)\s+(\S+)", owner=True)
@@ -176,7 +176,7 @@ async def ayra(event):
             if udB.get_key("PMBOT"):
                 ok = "Anda dapat menghubungi Owner saya menggunakan bot ini!!\n\nKirim Pesan Anda, saya akan Kirim ke Owner."
             await event.reply(
-                f"Hey {mention}, Aku Adalah Ayra Asissten {me}!\n\n{ok}",
+                f"Hey {mention}, Aku Adalah pyLuci Asissten {me}!\n\n{ok}",
                 file=udB.get_key("STARTMEDIA"),
                 buttons=[Button.inline("Info.", data="ownerinfo")]
                 if Owner_info_msg
